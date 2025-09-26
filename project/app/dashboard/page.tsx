@@ -102,47 +102,9 @@ export default function DashboardPage() {
         
         <div className="lg:col-span-2">
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-4">
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3">
-                  <div className="p-2 bg-green-100 rounded-lg">
-                    <Leaf className="h-5 w-5 text-green-600" />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold">12</div>
-                    <div className="text-sm text-gray-600">Active Crops</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+             
             
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3">
-                  <div className="p-2 bg-blue-100 rounded-lg">
-                    <TrendingUp className="h-5 w-5 text-blue-600" />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold">₹45K</div>
-                    <div className="text-sm text-gray-600">Monthly Income</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-            
-            <Card>
-              <CardContent className="p-6">
-                <div className="flex items-center gap-3">
-                  <div className="p-2 bg-orange-100 rounded-lg">
-                    <AlertCircle className="h-5 w-5 text-orange-600" />
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold">3</div>
-                    <div className="text-sm text-gray-600">Pending Tasks</div>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+           
           </div>
         </div>
       </div>

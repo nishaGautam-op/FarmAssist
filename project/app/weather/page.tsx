@@ -242,6 +242,7 @@ export default function WeatherPage() {
                   <div>
                     <h3 className="font-semibold">{tip.title}</h3>
                     <p className="text-sm text-gray-600">{tip.description}</p>
+                   
                   </div>
                 </div>
               </div>
